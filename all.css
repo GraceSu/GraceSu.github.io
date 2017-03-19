@@ -1,0 +1,266 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.wrap{
+	width: 940px;
+	margin: 0 auto;
+}
+
+.header{
+	height: 120px;
+	margin-bottom: 25px;
+}
+
+.content1{
+	background: #444444;
+	height: 415px;
+	margin-bottom: 25px;
+}
+
+.content2{
+	background: #FFFFFF;
+	height: 120px;
+	margin-bottom: 25px;
+}
+
+.content3{
+	background: #FFFFFF;
+	height: 460px;
+	margin-bottom: 25px;
+}
+
+.footer{
+	height: 100px;
+}
+
+.logo{
+	float: left;
+	margin: 25px;
+}
+
+.twitter{
+	margin-left: 650px; 
+	margin-top: 25px;
+}
+
+.link {
+	font-family: Trebuchet MS;
+	float: right;
+	margin-top: 40px;
+	margin-left: 20px;
+	margin-right: 25px;
+}
+
+.header a{
+	color: #444444;
+}
+
+.header a:hover{
+	color: #009FCC;
+}
+
+.content1-left{
+	float: left;
+	width: 640px;
+}
+
+.content1-right{
+	width: 300px;
+	float: left;
+	font-family: Trebuchet MS;
+}
+.content1-right h1{
+	font-size: 45px;
+	color: #009FCC;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 40px;
+}
+
+.content1-right p{
+	font-size: 18px;
+	color: #AAAAAA;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 25px;
+	line-height:25px
+}
+
+.content2 p{
+	color: #444444;
+	font-size: 17px;
+	font-family: Trebuchet MS;
+	line-height: 25px;
+	padding: 25px 30px;
+}
+
+.blue{
+	color: #009FCC;
+}
+
+.content3-left{
+	width: 190px;
+	height: 370px;
+	margin-left: 35px;
+	margin-top: 45px;
+	margin-right: 25px;
+	margin-bottom: 45px; 
+	float: left;
+}
+
+h2{
+	font-size: 30px;
+	font-family: Trebuchet MS;
+	padding-bottom: 10px;
+}
+
+.content3-left img{
+	border: 5px solid #F5F5F5;
+}
+
+.content3-center{
+	width: 410px;
+	height: 350px;
+	float: left;
+	padding-top: 69px;
+	font-family: Tahoma;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.content3-center h3{
+	font-size: 15px;
+	font-weight: bold;
+	padding-bottom: 10px; 
+}
+
+.content3-center p{
+	font-size: 15px;
+	line-height: 30px;
+	padding-bottom: 40px;
+}
+
+.content3-right{
+	width: 260px;
+	height: 415px;
+	float: left;
+	margin-top: 45px;
+}
+
+.content3-right ul{
+	font-size: 15px;
+	font-family: Tahoma;
+	padding-left: 15px;
+	padding-bottom: 30px;
+  	list-style-image:url("images/icon_03.png"); 
+  	line-height: 30px;
+}
+
+input{
+	height: 40px;
+	width: 180px;
+}
+
+.content3-right a {  
+	font-family: Trebuchet MS; 
+	color: #009FCC; 
+	background-color: #F5F5F5; 
+	height: 90px; 
+	padding-top: 10px; 
+	padding-right: 25px; 
+	padding-bottom: 10px; 
+	padding-left: 25px; 
+	width: 200px;
+}
+.content3-right a:hover {  
+	font-family: Trebuchet MS; 
+	color: #F5F5F5; 
+	background-color: #009FCC; 
+	height: 90px; 
+	padding-top: 10px; 
+	padding-right: 25px; 
+	padding-bottom: 10px; 
+	padding-left: 25px; 
+	width: 200px; 
+}
+
+.footer p{
+	font-size: 15px;
+	font-family: Tahoma;
+	line-height: 25px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.clear{
+	clear: both;
+}
+
+.read{
+	margin-left: 40px;
+	margin-top: 35px;
+}
+
+.read a {   
+	color: #DDDDDD; 
+	background-color: #666666; 
+	height: 90px; 
+	padding-top: 10px; 
+	padding-right: 15px; 
+	padding-bottom: 10px; 
+	padding-left: 15px; 
+	width: 200px;
+}
+.read a:hover {  
+	color: #444444; 
+	background-color: #DDDDDD; 
+	height: 90px; 
+	padding-top: 10px; 
+	padding-right: 15px; 
+	padding-bottom: 10px; 
+	padding-left: 15px; 
+	width: 200px; 
+}
